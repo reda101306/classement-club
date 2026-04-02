@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SITE WEB</title>
+        
+
+        
+</head>
+<body background="teswira.webp">
+
+    <img src="pic1.png" align="left" width="100px" height="50">
+  
+    <h1 align="center" style="color: red;">STANDING</h1>
+   
+    <table  border="1" align="right"  cellspacing="10" bgcolor="black" > 
+        <tr>
+            <td style="color: white;" >LOSE</td>
+        </tr>
+    </table>
+
+    <table  border="1" align="right"  cellspacing="10" bgcolor="black" style="margin-right: 20px;"> 
+        <tr>
+            <td style="color: white;">WIN</td>
+        </tr>
+    </table>
+
+    <table  border="1" align="right"  cellspacing="10" bgcolor="black" style="margin-right: 20px;" > 
+        <tr>
+            <td style="color: white;">PTS</td>
+        </tr>
+    </table>
+
+</body>
+</html>
