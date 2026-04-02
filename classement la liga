@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LaLiga Standings</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #0b1c2c;
+    color: white;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+    background: #0f2a3f;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header {
+    background: red;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #122f46;
+}
+
+tr {
+    border-bottom: 1px solid #1f3f5a;
+}
+
+tr:hover {
+    background: #163d5c;
+}
+
+.rank {
+    width: 30px;
+}
+
+.team {
+    font-weight: bold;
+}
+
+.stats {
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="header">STANDINGS</div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Team</th>
+                <th>PTS</th>
+                <th>PLD</th>
+                <th>DIF</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td class="team">Real Madrid</td><td class="stats">17</td><td class="stats">8</td><td class="stats">+12</td></tr>
+            <tr><td>2</td><td class="team">Atlético Madrid</td><td>17</td><td>8</td><td>+5</td></tr>
+            <tr><td>3</td><td class="team">Real Sociedad</td><td>17</td><td>8</td><td>+4</td></tr>
+            <tr><td>4</td><td class="team">Sevilla FC</td><td>14</td><td>7</td><td>+7</td></tr>
+            <tr><td>5</td><td class="team">Osasuna</td><td>14</td><td>8</td><td>0</td></tr>
+            <tr><td>6</td><td class="team">Rayo Vallecano</td><td>13</td><td>8</td><td>+5</td></tr>
+            <tr><td>7</td><td class="team">Athletic Club</td><td>13</td><td>8</td><td>+3</td></tr>
+            <tr><td>8</td><td class="team">Valencia CF</td><td>12</td><td>8</td><td>+4</td></tr>
+            <tr><td>9</td><td class="team">FC Barcelona</td><td>12</td><td>7</td><td>+4</td></tr>
+            <tr><td>10</td><td class="team">Real Betis</td><td>12</td><td>8</td><td>+2</td></tr>
+            <tr><td>11</td><td class="team">Villarreal CF</td><td>11</td><td>7</td><td>+5</td></tr>
+            <tr><td>12</td><td class="team">Mallorca</td><td>11</td><td>8</td><td>-5</td></tr>
+            <tr><td>13</td><td class="team">Espanyol</td><td>9</td><td>8</td><td>-2</td></tr>
+            <tr><td>14</td><td class="team">Elche</td><td>9</td><td>8</td><td>-3</td></tr>
+            <tr><td>15</td><td class="team">Celta Vigo</td><td>7</td><td>8</td><td>-4</td></tr>
+            <tr><td>16</td><td class="team">Cadiz</td><td>7</td><td>8</td><td>-4</td></tr>
+            <tr><td>17</td><td class="team">Granada</td><td>6</td><td>8</td><td>-6</td></tr>
+            <tr><td>18</td><td class="team">Levante</td><td>4</td><td>8</td><td>-7</td></tr>
+            <tr><td>19</td><td class="team">Alavés</td><td>3</td><td>7</td><td>-10</td></tr>
+            <tr><td>20</td><td class="team">Getafe</td><td>1</td><td>8</td><td>-10</td></tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
